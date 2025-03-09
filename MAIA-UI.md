@@ -6,10 +6,10 @@ local Success, Error = pcall(function()
 	Start = os.clock()
 	local NO_HOOKING = false
 
-	local Version = 1.3
-	local SubVersion = "beta"
+	local Version = 1.0
+	local SubVersion = "alpha"
 	local Debugging = true
-	local Title = "MAIA UI"
+	local Title = "MAIA HUB"
 
 	local HttpService = game:GetService("HttpService")
 	local Players = game:GetService("Players")
